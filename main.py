@@ -65,7 +65,7 @@ def list_org_domain(username, password, domain):
     print(get_json)
 
 
-def find_endpoint(username, password, domain):
+def return_endpoint(username, password, domain):
     '''
 
     :param username:
