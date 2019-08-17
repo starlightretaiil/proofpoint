@@ -6,11 +6,16 @@ Introduction
 The Proofpoint Essentials API is a REST API based around resource-focused, noun URLs, with HTTP verbs being used to operate on these resources. 
 
 Supported Functions:
-  list_org_info: Returns a single organisation identified by :domain in JSON format
-  list_user_email: Returns a single user identified by :email from the organisation identified by :domain in JSON format
-  list_org_licensing: Returns organisation licensing information
-  list_org_domain: Returns a single domain :domain in JSON format
-  return_endpoint: Returns the Organization URL
+
+*list_org_info: Returns a single organisation identified by :domain in JSON format
+
+*list_user_email: Returns a single user identified by :email from the organisation identified by :domain in JSON format
+
+*list_org_licensing: Returns organisation licensing information
+
+*list_org_domain: Returns a single domain :domain in JSON format
+
+*return_endpoint: Returns the Organization URL
 
 Organization
 In this context ‘Organization’ can refer to entities of any type (OEM Partner, Strategic Partner, Channel Partner and Organization). An Organization is core resource which owns various sub-resources such as Domains and Users. When referring to an Organization in an API request, we do so using the primary domain. For example to read data for the Organization "My Company" the following URL would be used.
